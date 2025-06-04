@@ -34,7 +34,8 @@ nav {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color) background-color: var(--primary-color);
+    color: var(--primary-color); 
+    
 }
 
 header,
@@ -157,6 +158,7 @@ figure {
 .adventure {
     display: grid;
     grid-auto-flow: column;
+    justify-content: center;
     gap: 1rem;
     padding: 1rem 0;
 }
@@ -211,4 +213,103 @@ footer p {
     font-size: 0.8rem;
     color: var(--secondary-color);
     text-align: left;
+}
+
+/*----------------------
+Contact Form Styles
+-----------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#contact form fieldset {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    max-width: 500px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #a9ebff;
+    border-radius: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 22px;
+    color: navy;
+}
+
+button {
+    border-radius: 0%;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+button:hover {
+    background-color: #98d9e2;
+    cursor: pointer;
+}
+
+form label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input[type="radio"] {
+    vertical-align: middle;
+}
+
+#contact main p {
+    font-size: 1.2rem;
+    text-align: left;
+    color: var(--secondary-color);
+}
+
+#contact h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    text-align: left;
+    padding: 1%;
+}
+
+map {
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+.submit-form {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.submit-form form {
+    flex: 1;
+    min-width: 600px;
+}
+
+#contact-info {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+    background-color: #021c24;
+    border-radius: 15px;
+}
+
+.wireframe {
+    color: white;
+    text-decoration: none;
+}
+
+.wireframe:hover {
+    color: yellow;
 }
