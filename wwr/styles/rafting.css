@@ -34,8 +34,8 @@ nav {
 
 body {
     font-family: var(--body-font);
-    color: var(--primary-color); 
-    
+    color: var(--primary-color);
+
 }
 
 header,
@@ -258,7 +258,7 @@ form label {
     display: inline-flex;
     align-items: center;
     gap: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
 }
 
 input[type="radio"] {
@@ -269,6 +269,13 @@ input[type="radio"] {
     font-size: 1.2rem;
     text-align: left;
     color: var(--secondary-color);
+}
+
+#contact .contact-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 10rem 0 1rem 0;
+    max-width: 1350px;
 }
 
 #contact h2 {
@@ -294,14 +301,14 @@ map {
 
 .submit-form form {
     flex: 1;
-    min-width: 600px;
+    min-width: 500px;
 }
 
 #contact-info {
     flex: 1;
     min-width: 300px;
     padding: 1rem;
-    background-color: #021c24;
+    background-color: #053949;
     border-radius: 15px;
 }
 
