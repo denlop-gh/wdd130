@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #12263A;
+    --primary-color: #17314b;
     /* Dark Blue */
     --secondary-color: #35a6aa;
     /* Light Blue */
@@ -20,10 +20,12 @@ header {
     border-bottom: 1px solid #ccc;
 
 }
+
 nav {
     display: flex;
     justify-content: center;
-   }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -32,8 +34,7 @@ nav {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color)
-    background-color: var(--primary-color);
+    color: var(--accent1-color) background-color: var(--primary-color);
 }
 
 header,
@@ -178,7 +179,7 @@ figure {
 }
 
 .adventure figcaption {
-    background-color: #4f538b;
+    background-color: #1f4e7c;
     color: #fff;
     font: var(--body-font);
     font-style: italic;
