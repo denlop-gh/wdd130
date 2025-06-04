@@ -181,7 +181,7 @@ figure {
     background-color: #4f538b;
     color: #fff;
     font: var(--body-font);
-    font-size: 0.8rem;
+    font-style: italic;
     padding: 10px;
     text-align: center;
 }
