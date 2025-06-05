@@ -42,23 +42,18 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="useremail">
 
+                    <div class="=radio-group"></div>
                     <p>Reason for contacting us:</p>
-
-                    <label for="general">General Inquiry</label>
-                    <input type="radio" id="general" name="contact-reason" value="General Inquiry">
-
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="reservation" name="contact-reason" value="Reservation Question">
-
-                    <label for="suggestion">Website Suggestion</label>
-                    <input type="radio" id="suggestion" name="contact-reason" value="Website Suggestion">
-
+                    <label><input type="radio" name="contact-reason" value="General Inquiry"> General Inquiry</label>
+                    <label><input type="radio" name="contact-reason" value="Booking Request"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="contact-reason" value="Feedback"> Website Suggestion</label><br>
 
                     <label for="message">Enter your comment below:</label>
-                    <textarea id="message" name="message" rows="5" cols="50"></textarea>
+                    <textarea id="message" name="message" rows="5" cols="50"></textarea><br>
 
-                    <label for="suscribe">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="suscribe" name="suscribe" value="yes">
+                    <label><input type="checkbox" id="suscribe" name="suscribe" value="yes"> Please subscribe me to the
+                        monthly newsletter</label>
 
                     <button type="submit">Submit</button>
                 </fieldset>
@@ -79,7 +74,7 @@
                 <div class="map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12787.489268209387!2d-120.35312881556871!3d36.74963575810661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20EE.%20UU.!5e0!3m2!1ses!2sgt!4v1749009716907!5m2!1ses!2sgt"
-                        width="800" height="400" allowfullscreen="" loading="lazy"
+                        style="width: 100%; height: 384px;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
