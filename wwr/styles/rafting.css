@@ -58,6 +58,7 @@ section,
 article {
     margin: 16px;
     padding: 20px;
+    color: #050505;
 }
 
 .nav-links {
@@ -99,7 +100,7 @@ h1 {
     padding: 2px;
     text-align: center;
     opacity: 0.9;
-    background-color: grey;
+    background-color: #333;
     color: #fff;
 }
 
@@ -181,8 +182,8 @@ figure {
 }
 
 .adventure figcaption {
-    background-color: #1f4e7c;
-    color: #fff;
+    background-color: #17314b;
+    color: #f1f1f1;
     font: var(--body-font);
     font-style: italic;
     padding: 10px;
@@ -232,7 +233,7 @@ Contact Form Styles
     max-width: 500px;
     margin: 0;
     padding: 1.5rem;
-    background-color: #1684a0;
+    background-color: #16A6DA;
     border-radius: 15px;
 }
 
@@ -249,10 +250,13 @@ button {
     font-size: 16px;
     padding: 0.5rem 1rem;
     margin: 0;
+    background-color: #0a5a77;
+    color: #fff;
 }
 
 button:hover {
-    background-color: #98d9e2;
+    background-color: #084d66;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -261,6 +265,7 @@ form label {
     align-items: center;
     gap: 0.5em;
     margin-bottom: 0.7em;
+    color: #050505
 }
 
 input[type="radio"] {
@@ -270,7 +275,7 @@ input[type="radio"] {
 #contact main p {
     font-size: 1.2rem;
     text-align: left;
-    color: var(--secondary-color);
+    color: #050505;
 }
 
 .contact-title {
@@ -301,7 +306,7 @@ map {
     gap: 2rem;
     align-items: flex-start;
     margin-top: 4rem;
-    color: white;
+    color: #f0f0f0;
 }
 
 .submit-form legend {
@@ -317,8 +322,8 @@ map {
 }
 
 .contact-info {
-    background-color: #1684a0;
-    color: #ffffff;
+    background-color: #16A6DA;
+    color: #050505;
     padding: 0.7rem;
     border-radius: 10px;
 }
