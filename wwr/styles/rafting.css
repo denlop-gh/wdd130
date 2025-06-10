@@ -11,6 +11,10 @@
     --body-font: "Roboto", sans-serif;
 }
 
+/*----------------------
+About Styles
+-----------------------*/
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -95,7 +99,7 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 0px;
     width: 100%;
     padding: 2px;
     text-align: center;
@@ -125,7 +129,14 @@ h1 {
 .history {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 100px;
+}
+
+.history h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .history img {
@@ -134,6 +145,14 @@ h1 {
     border-radius: 50px;
     max-width: 200px;
     padding: 15px;
+}
+
+.adventure-section h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .text-content {
@@ -147,6 +166,7 @@ h2 {
     font-family: var(--heading-font);
     color: #17314b;
     text-align: center;
+    margin: 20px 0;
 }
 
 figure {
@@ -217,7 +237,7 @@ footer p {
 }
 
 /*----------------------
-Contact Form Styles
+Contact Styles
 -----------------------*/
 * {
     margin: 0;
@@ -284,7 +304,7 @@ input[type="radio"] {
     margin: 10rem 0 1rem 0;
     max-width: 1350px;
     z-index: 3;
-    margin-top: 12rem;
+    margin-top: 12.59rem;
 
 }
 
@@ -303,7 +323,7 @@ map {
 
 .map-frame {
     width: 100%;
-    height: 365px;
+    height: 320px;
     border: none;
     border-radius: 15px;
     margin-top: 1rem;
@@ -311,7 +331,7 @@ map {
 
 .submit-form {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     align-items: flex-start;
     margin-top: 4rem;
     color: #f0f0f0;
@@ -332,8 +352,9 @@ map {
 .contact-info {
     background-color: #16A6DA;
     color: #050505;
-    padding: 0.7rem;
+    padding: 1rem;
     border-radius: 10px;
+    margin-top: 16px;
 }
 
 .wireframe {
@@ -342,5 +363,289 @@ map {
 }
 
 .wireframe:hover {
-    color: yellow;
+    color: #16A6DA;
+}
+
+/*----------------------
+Home Styles
+-----------------------*/
+
+.hero-home {
+    position: relative;
+    width: 100%;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.hero-home img {
+    display: block;
+    width: 100%;
+    height: 124%;
+}
+
+.hero-home h1 h1 {
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    padding: 0rem;
+    text-align: center;
+    opacity: 0.9;
+    background-color: #333;
+    color: #fff;
+}
+
+.home-callout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    align-items: start;
+}
+
+.home-signup {
+    padding: 3rem;
+    text-align: center;
+}
+
+.home-signup form {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+    opacity: 1;
+}
+
+.home-signup fieldset {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0;
+    padding: 2rem;
+    background-color: #16A6DA;
+    border-radius: 10px;
+}
+
+.home-signup legend {
+    font-size: 1.5rem;
+    color: #17314b;
+    margin-bottom: 0rem;
+}
+
+.home-signup button {
+    border-radius: 10px;
+    width: 50%;
+    place-self: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.invite-trip {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.invite-trip article {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.invite-trip h2 {
+    grid-column: 1/2;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.invite-trip p {
+    grid-column: 1/2;
+    margin-top: -1.7rem;
+}
+
+.invite-trip button {
+    border-radius: 10px;
+    width: 50%;
+    place-self: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.gotrip-button {
+    grid-column: 1/2;
+    margin-top: -4rem;
+    display: block;
+    border-radius: 10px;
+    width: 50%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0a5a77;
+    color: white;
+    place-self: center;
+}
+
+.gotrip-button:hover {
+    background-color: #084d66;
+}
+
+.trip-img {
+    width: 130%;
+    height: 310px;
+    border-radius: 10px;
+}
+
+/*----------------------
+Trips Styles
+-----------------------*/
+
+.hero-trips {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-trips h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 0rem;
+    text-align: center;
+    opacity: 0.9;
+    background-color: #333;
+    color: #fff;
+    z-index: 2;
+    margin-top: -1.2rem;
+}
+
+.schedule {
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+    width: 200px;
+    height: auto;
+    z-index: 2;
+}
+
+.gocontact-button {
+    position: absolute;
+    z-index: 2;
+    margin-top: 2.5rem;
+    display: block;
+    border-radius: 10px;
+    width: 10%;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0a5a77;
+    color: white;
+    bottom: 2.2%;
+    right: 5.5%;
+}
+
+.gocontact-button:hover {
+    background-color: #084d66;
+}
+
+.trip-table {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #084d66;
+    text-align: center;
+}
+
+.trip-table .table-header {
+    background-color: #17314b;
+    color: #f1f1f1;
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 10px;
+    border: 2px solid #084d66;
+}
+
+.trip-table caption {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #17314b;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: -3rem;
+}
+
+.trip-plans {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+    gap: 2rem;
+    padding: 8rem;
+}
+
+.trip-plans img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trip-plans figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    margin: 0;
+    width: 400px;
+}
+
+.trip-plans figcaption {
+    background-color: #17314b;
+    color: #f1f1f1;
+    font: var(--body-font);
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.trip-plans figure:hover {
+    background-color: #429dbe;
+}
+
+.trip-plans p {
+    font-size: 1rem;
+    color: #f1f1f1;
+    text-align: center;
 }
